@@ -1,0 +1,157 @@
+.add-btn , .remove-btn , .edit-btn , .sure-btn , .nope-btn {
+  appearance: none;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.add-btn , .sure-btn{
+    background-color: #2ea44f;
+}
+
+.add-btn:hover {
+  background-color: #2c974b;
+}
+
+.add-btn:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.add-btn:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.add-btn:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.remove-btn , .nope-btn {
+    background-color: #FF4742;
+}
+
+.remove-btn:hover {
+    background-color: #ca3832;
+}
+  
+.remove-btn:focus {
+    box-shadow: #FF474266 0 0 0 3px;
+    outline: none;
+}
+  
+.remove-btn:disabled {
+    background-color: #be8b8a;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+  
+.remove-btn:active {
+    background-color: #e3413b;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.edit-btn {
+    background-color: #eccb27;
+    color: black;
+}
+
+.edit-btn:hover {
+    background-color: #c8ad26;
+}
+  
+.edit-btn:focus {
+    box-shadow: #eccb2766 0 0 0 3px;
+    outline: none;
+}
+  
+.edit-btn:disabled {
+    background-color: #d3c78c;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+  
+.edit-btn:active {
+    background-color: #766513;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.warningContainer {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.inputsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+input {
+    text-align: right;
+    font-size: 1rem;
+    padding: 5px;
+    max-width: 300px;
+}
+
+.selector {
+    height: 34px;
+    width: 150px;
+}
+
+.loginDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.loginspan {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+.loading {
+    font-size: 2rem;
+    font-weight: 900;
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
