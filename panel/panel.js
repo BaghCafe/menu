@@ -337,7 +337,7 @@ function createMenuItems (items) {
         const editBTN = ce('button' , 'edit-btn')
         editBTN.textContent = 'ادیت کردن'
         editBTN.addEventListener('click' , () => {
-            editItem(item.name , item.price , item.desc , item.id)
+            editItem(item.name , item.price , item.desc ,item.img, item.id)
         })
 
         const removeBTN = ce('button' , 'remove-btn')
@@ -437,7 +437,7 @@ function addItem () {
     overlay.append(container)
 }
 
-function editItem (name , price , desc , id) {
+function editItem (name , price , desc, img , id) {
     const overlay = createOverlay()
 
     const container = ce('div' , 'inputsContainer')
@@ -476,7 +476,11 @@ function editItem (name , price , desc , id) {
         if (nameInput.value.length > 0 &&
             priceInput.value.length > 0
         ) {
-            editItemOnDatabse(nameInput.value , priceInput.value , descInput.value , imageInput.files[0] , id)
+		let n = nameInput.value || name
+		let p = priceInput.value || price
+		let d = descInput.value || desc
+		let i = imageInput.files[0] || img
+            editItemOnDatabse(n , p , d , i , id)
         }
     })
 
