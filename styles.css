@@ -76,6 +76,7 @@ body {
 }
 .foodDesc {
 	font-size: 0.8rem;
+	line-height: 1rem;
 }
 .menuItmes {
 	width: 100%;
