@@ -69,6 +69,9 @@ body {
 .foodTitle {
 	text-align: center;
 }
+.foodPrice {
+	font-size: 1.2rem;
+}
 
 .menuItmes {
 	width: 100%;
@@ -97,6 +100,7 @@ body {
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	border-bottom: 1px solid #31261c;
+	align-items: center;
 	padding-bottom:5px;
 	font-size: 1.3rem;
 }
