@@ -68,7 +68,7 @@ body {
 	background-repeat: no-repeat;
 }
 .foodTitle {
-	text-align: center;
+	text-align: right;
 }
 .foodPrice {
 	font-size: 1.2rem;
