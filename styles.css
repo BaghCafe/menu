@@ -73,6 +73,8 @@ body {
 }
 .foodPrice {
 	font-size: 1.2rem;
+	color: #a06f53;
+	font-weight: 600;
 }
 .foodDesc {
 	font-size: 0.8rem;
