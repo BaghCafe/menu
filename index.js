@@ -112,7 +112,7 @@ function createMenuItems (items) {
 		price.textContent = item.price
 
 		const lowerDiv = ce('div' , 'menuOneItemInfoLower')
-		const desc = ce('span' , 'foodDesc')
+		const desc = ce('p' , 'foodDesc')
 		desc.textContent = item.desc
 
 		upperDiv.append(title)
