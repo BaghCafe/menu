@@ -62,10 +62,8 @@ body {
 	width: 80px;
 	height: 80px;
 	border-radius: 20px;
-	background-color: #f1f0ee;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	object-fit: cover;
+	display: block;
 }
 .foodTitle {
 	text-align: right;
