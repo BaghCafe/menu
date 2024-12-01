@@ -97,9 +97,9 @@ function createMenuItems (items) {
 	items.forEach((item) => {
 		const itemDiv = ce('div', 'menuOneItem')
 
-		const image = ce('div', 'foodImage')
+		const image = ce('img', 'foodImage')
 		if (item.img) {
-			image.style.backgroundImage = `url(${item.img})`
+			image.src = item.img
 		}
 
 		const infoDiv = ce('div', 'menuOneItemInfo')
