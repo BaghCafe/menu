@@ -312,9 +312,9 @@ function createMenuItems (items) {
         const itemDiv = ce('div', 'menuOneItem')
         itemDiv.classList.add('f-c')
 
-        const image = ce('div', 'foodImage')
+        const image = ce('img', 'foodImage')
         if (item.img) {
-            image.style.backgroundImage = `url(${item.img})`
+            image.src = item.img
         }
         else {
             image.style.backgroundColor = '#f1f0ee'
